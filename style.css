@@ -162,19 +162,21 @@ main{
     margin-left: 35rem;
 }
 
-#menu{
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    background: #333;
-    color: #fff;
-    cursor: pointer;
-    font-size: 2.5rem;
-    padding: 1rem 1.5rem;
-    z-index: 1000;
-    display: none;
-}
 
+main .image{
+    display: none;
+    margin: 2rem auto;
+    width: 27rem;
+    height: 27rem;
+}
+main .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 0.5rem solid var(--yellow);
+}
 .home{
     display: flex;
     justify-content: center;
@@ -452,14 +454,14 @@ svg{
     }
 }
 
-@media screen  and (max-width: 991px){
+@media screen  and  (max-width: 991px){
     header{
         left: -120%;
     }
     main{
         margin-left: 0;
     }
-    #menu{
+    main .image{
         display: block;
     }
     header.toggle{
