@@ -395,6 +395,19 @@ main .image img {
   cursor: pointer;
 }
 
+.portfolio .more-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: #fff;
+  font-size: 2rem;
+}
+.portfolio .more-projects a {
+  color: #f9ca24;
+  text-decoration: none;
+}
+
 /* ====== End portfolio ====== */
 
 /* ====== Start contact ====== */
